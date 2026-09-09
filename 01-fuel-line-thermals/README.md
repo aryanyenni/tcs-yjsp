@@ -6,7 +6,6 @@
 
 
 ### Background
-TCS - The Yellow Jacket Space Program (YJSP) is developing Elytra, a space-bound liquid KeroLOX rocket. The Thermal Control System is responsible for maintaining all vehicle components within their operational temperature ranges during ground operations.
 
 This repository documents the first-pass thermal analysis of the RP-1 Inlet Line for YJSP's Elytra vehicle, conducted as part of the Thermal Control System (TCS) responsible engineering effort. The analysis covers steady-state heating solutions and transient insulation trade studies for ground operations.
 
@@ -27,26 +26,26 @@ In this low fidelity 1D sim, the dominant heat transfer mechanisms include:
 
 ### Repo Structure
 ```
-yjsp-tcs-rp1-thermal/
-│
-├── README.md
-├── references/
-│ └── Cebeci 1974.pdf
-│
-├── matlab/
-│ ├── getNusselt_natural.m
-│ ├── getNusselt_forced_internal.m
-│ └── getNusselt_forced_external.m
-│
-├── simulink/
-│ ├── st_transient_ODE1.slx
-│ ├── st_transient.slx
-| └── st_transient_parameters.m
-│
-└── figures/
-  ├── st_steady_preTRN.png
-  ├── st_transient_ODE1.png
-  └── st_transient.png
+01-fuel-line-thermals/
+  │
+  ├── README.md
+  ├── references/
+  │ └── Cebeci 1974.pdf
+  │
+  ├── matlab/
+  │ ├── getNusselt_natural.m
+  │ ├── getNusselt_forced_internal.m
+  │ └── getNusselt_forced_external.m
+  │
+  ├── simulink/
+  │ ├── st_transient_ODE1.slx
+  │ ├── st_transient.slx
+  | └── st_transient_parameters.m
+  │
+  └── figures/
+    ├── st_steady_preTRN.png
+    ├── st_transient_ODE1.png
+    └── st_transient.png
 ```
 
 ---
