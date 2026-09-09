@@ -27,7 +27,6 @@ In this low fidelity 1D sim, the dominant heat transfer mechanisms include:
 ### Repo Structure
 ```
 01-fuel-line-thermals/
-  │
   ├── README.md
   ├── references/
   │ └── Cebeci 1974.pdf
